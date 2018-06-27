@@ -1,0 +1,36 @@
+.layout-root{
+    background-color: #f6f6f6;
+    font-family: 'Muli', cursive;
+    font-size: 1rem;
+    color: #43525A;
+    min-height: 100vh;
+    display: flex;
+    overflow-x: hidden;
+}
+.container1
+{
+    box-sizing: border-box;
+    padding: 2.1rem 0.7rem;
+    color: #43525A;
+}
+.nav_main
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.nav-link
+{
+    padding: 0.35rem;
+    margin: 0.35rem;
+    text-decoration: none;
+    transition: all 0.3s
+    cubic-bezier (0.75, -0.82, 0.165, 1.55);
+    transform: translateY(0);
+}
+a:-webkit-any-link
+{
+    cursor: pointer;
+    
+}
