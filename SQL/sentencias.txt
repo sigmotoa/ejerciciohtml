@@ -55,3 +55,16 @@ insert into students (player_name) values
 
 insert into test (name, student_idexterno) values
 ('Primer Examen', 2);
+
+Select 
+s.student_id, s.player_name,
+te.test_id, te.name ,te.student_idexterno
+from students s, test te
+where s.student_id = te.student_idexterno
+
+
+Select 
+s.student_id, s.player_name,
+te.test_id, te.name ,te.student_idexterno
+from students s
+join test te on(s.student_id=te.student_idexterno)
