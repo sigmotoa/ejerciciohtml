@@ -47,3 +47,8 @@ CREATE TABLE test
 	subject_name TEXT,
 	student_idexterno integer REFERENCES students
 );
+
+insert into students (player_name) values
+('Diego Maradona'),
+('Ronaldo'),
+('Pele');
