@@ -52,3 +52,6 @@ insert into students (player_name) values
 ('Diego Maradona'),
 ('Ronaldo'),
 ('Pele');
+
+insert into test (name, student_idexterno) values
+('Primer Examen', 2);
