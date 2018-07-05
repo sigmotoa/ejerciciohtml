@@ -28,3 +28,22 @@ alter table students rename column age to edad
 alter table students drop COLUMN edad;
 truncate table students;
 drop table students;
+
+
+
+----------------------------------------------------------------------------
+*
+*    Otro ejercicio, FOREIGN KEY
+****************************************************************************
+
+CREATE TABLE students
+(student_id SERIAL PRIMARY KEY,
+ player_name TEXT
+);
+
+CREATE TABLE test
+(
+	subject_id SERIAL,
+	subject_name TEXT,
+	student_idexterno integer REFERENCES students
+);
