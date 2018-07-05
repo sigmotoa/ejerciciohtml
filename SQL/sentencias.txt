@@ -27,3 +27,4 @@ alter table students add column age integer not null default 0;
 alter table students rename column age to edad
 alter table students drop COLUMN edad;
 truncate table students;
+drop table students;
